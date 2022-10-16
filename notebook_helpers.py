@@ -107,7 +107,7 @@ def select_cond_path(mode):
 def get_cond(mode, selected_path):
     example = dict()
     if mode == "superresolution":
-        up_f = 4
+        up_f = 10
         visualize_cond_img(selected_path)
 
         c = Image.open(selected_path)
